@@ -1,1 +1,24 @@
-## Python 문제는 https://programmers.co.kr/ 의 문제를 풀이하였습니다
+# Algorithm Problems
+> 파이썬은 https://programmers.co.kr/ 의 문제를 풀이하였습니다.
+
+## Environment
+Language | Version | IDE
+:---: | :---: | :---:
+Python | python 3.7.x | Pycharm 
+Java | 10.0.1 | Eclipse oxygen
+C | Visual Studio 2017 | Visual Studio 2017
+
+## Programmers
+
+문제 | 코드 | 문제 보기
+:---: | :---: | :---:
+K번째수 | [클릭](Python/K번째수.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/42748)
+가운데 글자 가져오기| [클릭](Python/가운데_글자_가져오기.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12903)
+같은 숫자는 싫어| [클릭](Python/같은_숫자는_싫어.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12906)
+나누어 떨어지는 숫자 배열| [클릭](Python/나누어_떨어지는_숫자_배열.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12910)
+두 정수 사이의 합| [클릭](Python/두_정수_사이의_합.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12912)
+땅따먹기| [클릭](Python/땅따먹기.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12913)
+소수 찾기| [클릭](Python/소수_찾기.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12921)
+수박수박수박수| [클릭](Python/수박수박수박수.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12922)
+올바른 괄호| [클릭](Python/올바른_괄호.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12909)
+최대공약수과 최소공배수| [클릭](Python/최대공약수와_최소공배수.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12940)
