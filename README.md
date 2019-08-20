@@ -1,2 +1,5 @@
-# Algorithm-training
-Data structure &amp; algorithm training
+# Algorithm training
+
+### 알고리즘 문제를 풀고 자료구조를 공부합니다.
+
+### 문제 내용은 자바 소스코드안에 주석으로 기재되어있습니다.
