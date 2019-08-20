@@ -1,1 +1,0 @@
-## 대부분의 문제들은 https://programmers.co.kr 사이트의 문제를 풀이했습니다.
