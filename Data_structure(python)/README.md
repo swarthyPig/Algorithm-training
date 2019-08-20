@@ -1,23 +1,28 @@
 # Data structure
-
-> ÀÚ·á±¸Á¶´Â ¸ğµÎ ÆÄÀÌ½ãÀ» »ç¿ëÇÏ¿© ÁøÇàÇÏ¿´½À´Ï´Ù.
-
-
+> ìë£Œêµ¬ì¡°ëŠ” ëª¨ë‘ íŒŒì´ì¬ì„ ì‚¬ìš©í•˜ì—¬ ì§„í–‰í•˜ì˜€ìŠµë‹ˆë‹¤.
 
 ## Environment
-
-
-
 Language | Version | IDE
-
 :---: | :---: | :---:
-
 Python | python 3.7.x | Pycharm 
 
-
-
 ## CODE
-
 * Stack and Queue
+  - Stack | [ì½”ë“œ](Stack_and_Queue/Stack.py)
+  - Linear Queue | [ì½”ë“œ](Stack_and_Queue/Linear_Queue(use_dynamic_list).py)
+  - Circular Queue | [ì½”ë“œ](Stack_and_Queue/Circular_Queue.py)
   
-  - Stack | [ÄÚµå](Stack and Queue/Stack.py)
+* Search
+  - Linear search | [ì½”ë“œ](Search/Linear_search(sequential_search).py)
+  - Linear search(sentinel) | [ì½”ë“œ](Search/Linear_search(sequential_search)_use_sentinel.py)
+  - Binary search | [ì½”ë“œ](Search/Binary_search.py)
+  
+* String Search
+  - Brute Force search | [ì½”ë“œ](Search/Brute-Force_search.py)
+  - KMP search | [ì½”ë“œ](Search/KMP_search.py)
+  - Boyer Moore search | [ì½”ë“œ](Search/Boyer-Moore_search.py)
+  
+* Sort
+  - Bubble sort | [ì½”ë“œ](Sort/Bubble_sort.py)
+  - Insert sort | [ì½”ë“œ](Sort/Insert_sort.py)
+  - Selection sort | [ì½”ë“œ](Sort/Selection_sort.py)
