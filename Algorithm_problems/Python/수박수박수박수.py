@@ -4,7 +4,7 @@ def solution(n):
     for i in range(n): 
 
         if i % 2 == 0:
-            answer += "¼ö"
+            answer += 'ìˆ˜'
         else:
-            answer += "¹Ú"
+            answer += 'ë°•'
     return answer
