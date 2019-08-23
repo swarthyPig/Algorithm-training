@@ -23,3 +23,7 @@ K번째수 | [클릭](Python/K번째수.py) | [클릭](https://programmers.co.kr
 올바른 괄호| [클릭](Python/올바른_괄호.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12909)
 최대공약수과 최소공배수| [클릭](Python/최대공약수와_최소공배수.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12940)
 문자열 내 마음대로 정렬하기| [클릭](Python/문자열_내_마음대로_정렬하기.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12915)
+문자열 다루기 기본| [클릭](Python/문자열_다루기_기본.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12918)
+문자열 내림차순으로 배치하기| [클릭](Python/문자열_내림차순으로_배치하기.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12917)
+콜라스 추측| [클릭](Python/콜라스_추측.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12943)
+제일 작은 수 제거하기| [클릭](Python/제일_작은_수_제거하기.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12935)
