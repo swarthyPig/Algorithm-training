@@ -27,3 +27,5 @@ K번째수 | [클릭](Python/K번째수.py) | [클릭](https://programmers.co.kr
 문자열 내림차순으로 배치하기| [클릭](Python/문자열_내림차순으로_배치하기.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12917)
 콜라스 추측| [클릭](Python/콜라스_추측.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12943)
 제일 작은 수 제거하기| [클릭](Python/제일_작은_수_제거하기.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12935)
+문자열 내 p와 y의 갯수| [클릭](Python/문자열_내_p와_y의_개수.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12916)
+2016년| [클릭](Python/2016년.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12901)
