@@ -1,5 +1,5 @@
 # Algorithm Problems
-> 파이썬은 https://programmers.co.kr/ 의 문제를 풀이하였습니다.
+> 파이썬으로 https://programmers.co.kr/ 의 문제를 풀이하였습니다.
 
 ## Environment
 Language | Version | IDE
@@ -25,7 +25,10 @@ K번째수 | [클릭](Python/K번째수.py) | [클릭](https://programmers.co.kr
 문자열 내 마음대로 정렬하기| [클릭](Python/문자열_내_마음대로_정렬하기.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12915)
 문자열 다루기 기본| [클릭](Python/문자열_다루기_기본.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12918)
 문자열 내림차순으로 배치하기| [클릭](Python/문자열_내림차순으로_배치하기.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12917)
+정수 내림차순으로 배치하기| [클릭](Python/정수_내림차순으로_배치하기.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12933)
 콜라스 추측| [클릭](Python/콜라스_추측.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12943)
 제일 작은 수 제거하기| [클릭](Python/제일_작은_수_제거하기.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12935)
 문자열 내 p와 y의 갯수| [클릭](Python/문자열_내_p와_y의_개수.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12916)
 2016년| [클릭](Python/2016년.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12901)
+자릿수 더하기| [클릭](Python/자릿수_더하기.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12931)
+자연수 뒤집어 배열로 만들기| [클릭](Python/자연수_뒤집어_배열로_만들기.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12932)
