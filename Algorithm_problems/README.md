@@ -32,3 +32,4 @@ K번째수 | [클릭](Python/K번째수.py) | [클릭](https://programmers.co.kr
 2016년| [클릭](Python/2016년.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12901)
 자릿수 더하기| [클릭](Python/자릿수_더하기.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12931)
 자연수 뒤집어 배열로 만들기| [클릭](Python/자연수_뒤집어_배열로_만들기.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12932)
+완주하지 못한 선수| [클릭](Python/완주하지_못한_선수.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/42576)
