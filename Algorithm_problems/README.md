@@ -42,3 +42,4 @@ x만큼 간격이 있는 n개의 숫자| [클릭](Python/x만큼_간격이_있�
 모의고사| [클릭](Python/모의고사.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/42840)
 시저암호| [클릭](Python/시저암호.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12926)
 이상한 문자 만들기| [클릭](Python/이상한_문자_만들기.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12930)
+체육복| [클릭](Python/체육복.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/42862)
