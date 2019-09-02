@@ -14,6 +14,7 @@
 
 ### 2day
 문제 | 코드 | 문제 보기
+:---: | :---: | :---:
 아픈 동물 찾기| [클릭](Programmers_SQL_challenge/day2/아픈_동물_찾기.sql) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/59036)
 어린 동물 찾기| [클릭](Programmers_SQL_challenge/day2/어린_동물_찾기.sql) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/59037)
 
