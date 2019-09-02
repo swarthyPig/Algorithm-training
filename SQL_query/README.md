@@ -4,6 +4,7 @@
 
 ## 7days SQL challenge
 > https://programmers.co.kr/ 의 SQL 7일 챌린지에 대한 문제풀이입니다.
+> 하루에 2문제씩 7일 동안 총 14개의 문제를 풀이하게됩니다.
 
 ### 1day
 문제 | 코드 | 문제 보기
