@@ -9,7 +9,12 @@
 ### 1day
 문제 | 코드 | 문제 보기
 :---: | :---: | :---:
-모른 레코드 조회하기 | [클릭](7days_SQL_challenge/1day/모든_레코드_조회하기.sql) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/59034)
-역순 정렬하기| [클릭](7days_SQL_challenge/1day/역순_정렬하기.sql) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/59035)
+모른 레코드 조회하기 | [클릭](Programmers_SQL_challenge/day1/모든_레코드_조회하기.sql) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/59034)
+역순 정렬하기| [클릭](Programmers_SQL_challenge/day1/역순_정렬하기.sql) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/59035)
+
+### 2day
+문제 | 코드 | 문제 보기
+아픈 동물 찾기| [클릭](Programmers_SQL_challenge/day2/아픈_동물_찾기.sql) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/59036)
+어린 동물 찾기| [클릭](Programmers_SQL_challenge/day2/어린_동물_찾기.sql) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/59037)
 
 
