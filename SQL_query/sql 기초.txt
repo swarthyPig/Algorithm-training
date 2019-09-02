@@ -1,0 +1,58 @@
+mysql -uroot -p //유저 루트 패스워드
+
+mysql> create database rhks12345; //생성
+mysql> drop database rhks12345; //삭제
+
+mysql> show databases; // db목록 보여줌
+
+mysql> use rhks12345; //rhks12345 db사용하겠음
+
+mysql> create table topic( // 데이블 생성
+      ->    id INT(11) NOT NULL AUTO_INCREMENT, //비워두지 않겟다, 숫자 자동 증가
+      ->    title VARCHAR(100) NOT NULL,
+      ->    description TEXT NULL,
+      ->    created DATETIME NOT NULL,
+      ->    author VARCHAR(30) NULL,
+      ->    profile VARCHAR(100) NULL,
+      ->    PRIMARY KEY(id));
+
+mysql -uroot -p // 관리자모드로 들어가서 패스워드 입력
+
+
+mysql> desc topic; // topic이라는 table의 구조가 나옴
+
+mysql> insert into topic (title,description,created,author,profile) values('MySQL', 'MySQL is...', now(), 'egoing', 'developer'); // 데이터 추가
+mysql> insert into topic (title,description,created,author,profile) values('ORACLE', 'ORACLE is...', now(), 'egoing', 'developer'); // 데이터 추가
+mysql> insert into topic (title,description,created,author,profile) values('SQL Server', 'SQL Serer is...', now(), 'duru', 'data administrator'); // 데이터 추가
+mysql> insert into topic (title,description,created,author,profile) values('PostgreSQL', 'PostgreSQL is...', now(), 'taeho', 'data scientist, developer'); // 데이터 추가
+mysql> insert into topic (title,description,created,author,profile) values('MongoDB', 'MongoDB is...', now(), 'egoing', 'developer'); // 데이터 추가
+
+mysql> select * from topic;  // topic의 데이터를 가지고옴
+
+mysql> select id, title, created, author from topic; // 적혀있지 않는 description, profile 숨김.
+
+mysql> select id, title, created, author from topic where author='egoing'; // author='egoing' 인것만 출력
+
+mysql> select id, title, created, author from topic where author='egoing' order by id desc; //  정렬순서 역순
+
+mysql> select id, title, created, author from topic where author='egoing' order by id desc limit 2; // 2개만 제한해서 출력
+
+mysql> update topic set description='Oracle is ...', title='Oracle' where id=2; // id값이 2인 데이터를 수정
+
+mysql> delete from topic where id = 5; // id 값이 5인 행을 삭제
+
+mysql> rename table topic to topic_backup; // table 이름을 바꿈
+
+mysql> select * from topic left join author on topic.author_id = author.id; // join
+
+mysql> select topic.id as topic_id, title, description,created, name, profile from topic left join author on topic.author_id = author.id; // as로 이름 바꿀수있음
+
+
+
+
+
+
+
+
+
+
