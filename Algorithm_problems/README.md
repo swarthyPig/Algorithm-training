@@ -10,7 +10,7 @@ C | Visual Studio 2017 | Visual Studio 2017
 
 ## Programmers 
 
-### level-1
+### level 1
 
 문제 | 코드 | 문제 보기
 :---: | :---: | :---:
@@ -45,7 +45,7 @@ x만큼 간격이 있는 n개의 숫자| [클릭](Python/level1/x만큼_간격�
 체육복| [클릭](Python/level1/체육복.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/42862)
 예산| [클릭](Python/level1/예산.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12982)
 
-### level-2
+### level 2
 
 문제 | 코드 | 문제 보기
 :---: | :---: | :---:
