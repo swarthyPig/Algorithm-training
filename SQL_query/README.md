@@ -18,4 +18,10 @@
 아픈 동물 찾기| [클릭](Programmers_SQL_challenge/day2/아픈_동물_찾기.sql) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/59036)
 어린 동물 찾기| [클릭](Programmers_SQL_challenge/day2/어린_동물_찾기.sql) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/59037)
 
+### 3day
+문제 | 코드 | 문제 보기
+:---: | :---: | :---:
+최솟값 구하기| [클릭](Programmers_SQL_challenge/day3/최솟값_구하기.sql) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/59038)
+이름이 없는 동물의 아이디| [클릭](Programmers_SQL_challenge/day3/이름이_없는_동물의_아이디.sql) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/59039)
+
 
