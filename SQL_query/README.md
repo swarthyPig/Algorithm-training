@@ -24,4 +24,10 @@
 최솟값 구하기| [클릭](Programmers_SQL_challenge/day3/최솟값_구하기.sql) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/59038)
 이름이 없는 동물의 아이디| [클릭](Programmers_SQL_challenge/day3/이름이_없는_동물의_아이디.sql) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/59039)
 
+### 4day
+문제 | 코드 | 문제 보기
+:---: | :---: | :---:
+고양이와 개는 몇 마리 있을까| [클릭](Programmers_SQL_challenge/day4/고양이와_개는_몇_마리_있을까.sql) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/59040)
+동명 동물 수 찾기| [클릭](Programmers_SQL_challenge/day4/동명_동물_수_찾기.sql) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/59041)
+
 
