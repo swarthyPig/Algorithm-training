@@ -30,4 +30,10 @@
 고양이와 개는 몇 마리 있을까| [클릭](Programmers_SQL_challenge/day4/고양이와_개는_몇_마리_있을까.sql) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/59040)
 동명 동물 수 찾기| [클릭](Programmers_SQL_challenge/day4/동명_동물_수_찾기.sql) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/59041)
 
+### 5day
+문제 | 코드 | 문제 보기
+:---: | :---: | :---:
+없어진 기록 찾기| [클릭](Programmers_SQL_challenge/day5/없어진_기록_찾기.sql) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/59042)
+있었는데요 없었습니다| [클릭](Programmers_SQL_challenge/day5/있었는데요_없었습니다.sql) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/59043)
+
 
