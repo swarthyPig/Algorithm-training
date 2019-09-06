@@ -26,3 +26,4 @@ Python | python 3.7.x | Pycharm
   - Bubble sort | [코드](Sort/Bubble_sort.py)
   - Insert sort | [코드](Sort/Insert_sort.py)
   - Selection sort | [코드](Sort/Selection_sort.py)
+  - Shell sort | [코드](Sort/Shell_sort.py)
