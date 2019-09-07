@@ -42,4 +42,9 @@
 오랜 기간 보호한 동물| [클릭](Programmers_SQL_challenge/day6/오랜_기간_보호한_동물.sql) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/59044)
 보호소에서 중성화한 동물| [클릭](Programmers_SQL_challenge/day6/보호소에서_중성화한_동물.sql) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/59045)
 
+### 7-day
+문제 | 코드 | 문제 보기
+:---: | :---: | :---:
+루시와 엘라 찾기| [클릭](Programmers_SQL_challenge/day7/루시와_엘라_찾기.sql) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/59046)
+이름이 el로 끝나는 동물 찾기| [클릭](Programmers_SQL_challenge/day7/이름이_el로_끝나는_동물_찾기.sql) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/59047)
 
