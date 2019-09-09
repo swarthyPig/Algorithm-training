@@ -1,0 +1,12 @@
+﻿1>------ 빌드 시작: 프로젝트: ConsoleApplication2, 구성: Debug Win32 ------
+1>ConsoleApplication2.cpp
+1>d:\jyg\consoleapplication2\consoleapplication2.cpp(24): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+1>d:\jyg\consoleapplication2\consoleapplication2.cpp(47): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'TIGER'입니다.
+1>d:\jyg\consoleapplication2\consoleapplication2.cpp(37): warning C4101: 'e' :참조되지 않은 지역 변수입니다.
+1>d:\jyg\consoleapplication2\consoleapplication2.cpp(39): warning C4101: 'f' :참조되지 않은 지역 변수입니다.
+1>d:\jyg\consoleapplication2\consoleapplication2.cpp(41): warning C4101: 'h' :참조되지 않은 지역 변수입니다.
+1>d:\jyg\consoleapplication2\consoleapplication2.cpp(40): warning C4101: 'g' :참조되지 않은 지역 변수입니다.
+1>d:\jyg\consoleapplication2\consoleapplication2.cpp(36): warning C4101: 'd' :참조되지 않은 지역 변수입니다.
+1>ConsoleApplication2.vcxproj -> D:\JYG\ConsoleApplication2\Debug\ConsoleApplication2.exe
+1>"ConsoleApplication2.vcxproj" 프로젝트를 빌드했습니다.
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
