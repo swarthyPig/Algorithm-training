@@ -27,3 +27,4 @@ Python | python 3.7.x | Pycharm
   - Insert sort | [코드](Sort/Insert_sort.py)
   - Selection sort | [코드](Sort/Selection_sort.py)
   - Shell sort | [코드](Sort/Shell_sort.py)
+  - Quick sort | [코드](Sort/Quick_Sort.py)
