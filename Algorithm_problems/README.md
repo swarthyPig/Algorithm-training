@@ -21,7 +21,7 @@ K번째수 | [클릭](Python/level1/K번째수.py) | [클릭](https://programmer
 두 정수 사이의 합| [클릭](Python/level1/두_정수_사이의_합.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12912)
 소수 찾기| [클릭](Python/level1/소수_찾기.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12921)
 수박수박수박수| [클릭](Python/level1/수박수박수박수.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12922)
-최대공약수과 최소공배수| [클릭](Python/level1/최대공약수와_최소공배수.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12940)
+최대공약수와 최소공배수| [클릭](Python/level1/최대공약수와_최소공배수.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12940)
 문자열 내 마음대로 정렬하기| [클릭](Python/level1/문자열_내_마음대로_정렬하기.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12915)
 문자열 다루기 기본| [클릭](Python/level1/문자열_다루기_기본.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12918)
 문자열 내림차순으로 배치하기| [클릭](Python/level1/문자열_내림차순으로_배치하기.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12917)
