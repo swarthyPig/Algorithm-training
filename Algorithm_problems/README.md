@@ -51,3 +51,4 @@ x만큼 간격이 있는 n개의 숫자| [클릭](Python/level1/x만큼_간격�
 :---: | :---: | :---:
 땅따먹기| [클릭](Python/level2/땅따먹기.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12913)
 올바른 괄호| [클릭](Python/level2/올바른_괄호.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12909)
+다음 큰 숫자| [클릭](Python/level2/다음_큰_숫자.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12911)
