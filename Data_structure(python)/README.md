@@ -9,6 +9,7 @@ Python | python 3.7.x | Pycharm
 ## CODE
 * Stack and Queue
   - Stack | [코드](Stack_and_Queue/Stack.py)
+  - Stack(linkedList) | [코드](Stack_and_Queue/Stack(linkedList).py)
   - Linear Queue | [코드](Stack_and_Queue/Linear_Queue(use_dynamic_list).py)
   - Circular Queue | [코드](Stack_and_Queue/Circular_Queue.py)
   
