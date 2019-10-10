@@ -1,12 +1,12 @@
 class Stack:
 
-    items = [] # ½ºÅÃÀ» ÀúÀåÇÒ ¸®½ºÆ®
-    top = -1 # ½ºÅÃ Æ÷ÀÎÅÍ
+    items = [] # ìŠ¤íƒì„ ì €ì¥í•  ë¦¬ìŠ¤íŠ¸
+    top = -1 # ìŠ¤íƒ í¬ì¸í„°
 
-    def __init__(self, max_num): # ½ºÅÃÀÇ Å©±â¸¦ ¹ŞÀ½
+    def __init__(self, max_num): # ìŠ¤íƒì˜ í¬ê¸°ë¥¼ ë°›ìŒ
         self.max_num = max_num
 
-    def push(self, data): # ½ºÅÃ¿¡ µ¥ÀÌÅÍ¸¦ ³ÖÀ½
+    def push(self, data): # ìŠ¤íƒì— ë°ì´í„°ë¥¼ ë„£ìŒ
 
         if self.is_full() :
             print('Stack is full')
@@ -14,7 +14,7 @@ class Stack:
             self.items.append(data)
             self.top += 1
 
-    def pop(self): # ½ºÅÃÀÇ µ¥ÀÌÅÍ¸¦ »èÁ¦ÇÏ°í ¹İÈ¯
+    def pop(self): # ìŠ¤íƒì˜ ë°ì´í„°ë¥¼ ì‚­ì œí•˜ê³  ë°˜í™˜
 
         if self.is_empty() :
             print('Stack is empty')
@@ -24,98 +24,100 @@ class Stack:
             self.top -= 1
             return data
 
-    def indexOf(self, data): # ½ºÅÃ¼Ó¿¡¼­ Ã£À¸·Á´Â µ¥ÀÌÅÍ À§Ä¡ °Ë»ö(¸øÃ£À¸¸é -1 ¹İÈ¯)
+    def indexOf(self, data): # ìŠ¤íƒì†ì—ì„œ ì°¾ìœ¼ë ¤ëŠ” ë°ì´í„° ìœ„ì¹˜ ê²€ìƒ‰(ëª»ì°¾ìœ¼ë©´ -1 ë°˜í™˜)
 
         for i in range(self.top, -1, -1):
             if self.items[i] == data:
                 return i
         return -1
 
-    def clear(self): # ½ºÅÃ ÃÊ±âÈ­
-        del self.items[:] # ¸ğµÎ °°Àº ±â´ÉÀ» ÇÏ´Â ÄÚµå
+    def clear(self): # ìŠ¤íƒ ì´ˆê¸°í™”
+        del self.items[:] # ëª¨ë‘ ê°™ì€ ê¸°ëŠ¥ì„ í•˜ëŠ” ì½”ë“œ
         #self.items.clear()
         #self.items[:] = []
         self.top = -1
-        return '½ºÅÃÀÌ ÃÊ±âÈ­ µÇ¾ú½À´Ï´Ù.'
+        return 'ìŠ¤íƒì´ ì´ˆê¸°í™” ë˜ì—ˆìŠµë‹ˆë‹¤.'
 
-    def size(self): # ½ºÅÃ¿¡ ÇöÀç ÀúÀåµÈ ¿ä¼ÒÀÇ ÃÑ °³¼ö
+    def size(self): # ìŠ¤íƒì— í˜„ì¬ ì €ì¥ëœ ìš”ì†Œì˜ ì´ ê°œìˆ˜
         return self.top + 1
 
-    def capacity(self): # ½ºÅÃÀÇ ¿ë·® È®ÀÎ
+    def capacity(self): # ìŠ¤íƒì˜ ìš©ëŸ‰ í™•ì¸
         return self.max_num
 
-    def peek(self): # ¸Ç ²À´ë±âÀÇ ½ºÅÃ µ¥ÀÌÅÍ È®ÀÎ
+    def peek(self): # ë§¨ ê¼­ëŒ€ê¸°ì˜ ìŠ¤íƒ ë°ì´í„° í™•ì¸
         if self.is_empty() :
             print('Stack is empty')
         else :
-            return self.items[self.top] # À§¾Æ·¡ °°Àº ÄÚµå
+            return self.items[self.top] # ìœ„ì•„ë˜ ê°™ì€ ì½”ë“œ
             # return self.items[-1]
 
-    def is_empty(self): # ½ºÅÃÀÌ ºñ¾îÀÖ´ÂÁö È®ÀÎ
+    def is_empty(self): # ìŠ¤íƒì´ ë¹„ì–´ìˆëŠ”ì§€ í™•ì¸
 
         return self.top <= -1
 
-    def is_full(self): # ½ºÅÃÀÌ °¡µæ Â÷ ÀÖ´ÂÁö È®ÀÎ
+    def is_full(self): # ìŠ¤íƒì´ ê°€ë“ ì°¨ ìˆëŠ”ì§€ í™•ì¸
 
         return self.top + 1 >= self.max_num
 
-    def dump(self): # ½ºÅÃ ¾ÈÀÇ ¸ğµç µ¥ÀÌÅÍ ¹Ù´Ú -> ²À´ë±â ¼øÀ¸·Î Ãâ·Â
+    def dump(self): # ìŠ¤íƒ ì•ˆì˜ ëª¨ë“  ë°ì´í„° ë°”ë‹¥ -> ê¼­ëŒ€ê¸° ìˆœìœ¼ë¡œ ì¶œë ¥
         if self.is_empty() :
             print('Stack is empty')
         else :
             for i in range(0, self.top+1, 1):
                 print(self.items[i],end=' ')
-        return 'end'
-
-# stack °´Ã¼ »ı¼º
-init_stack_size = int(input('½ºÅÃÀÇ Å©±â¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä : '))
-stack = Stack(init_stack_size)
-print('\n')
-
-while True : #ÇÁ·Î±×·¥ ½ÃÀÛ
-
-    print('ÇöÀç µ¥ÀÌÅÍ ¼ö : {}/{}'.format(stack.size(), stack.capacity()))
-
-    menu = int(input('(1)push (2)pop (3)peek (4)dump (5)search (6)clear (7)info (0)exit : '))
-
-    if menu == 0 : # exit
-        break
-
-    if menu == 1: # push
-        data = int(input('µ¥ÀÌÅÍ : '))
-        print('\n')
-        stack.push(data)
-
-    elif menu == 2: # pop
-        pop = stack.pop()
-        print('pop ÇÑ µ¥ÀÌÅÍ´Â {} ÀÔ´Ï´Ù.{}'.format(pop, '\n'))
-
-    elif menu == 3: # peek
-        peek = stack.peek()
-        print('peek ÇÑ µ¥ÀÌÅÍ´Â {} ÀÔ´Ï´Ù.{}'.format(peek, '\n'))
-
-    elif menu == 4: # dump
-        print(stack.dump(),end='\n\n')
-
-    elif menu == 5: # search
-        searchData = int(input('µ¥ÀÌÅÍ : '))
-        print('')
-        result = stack.indexOf(searchData)
-
-        if result >= 0:
-            print('²À´ë±âºÎÅÍ {} ¹øÂ°¿¡ ÀÖ½À´Ï´Ù.{}'.format(stack.size()-result, '\n'))
-        else :
-            print('ÇØ´ç µ¥ÀÌÅÍ°¡ ¾ø½À´Ï´Ù.',end='\n\n')
-
-    elif menu == 6: # clear
-        print(stack.clear(),end='\n\n')
 
 
-    elif menu == 7: # info
-        print('¿ë·® : {}'.format(stack.capacity()))
-        print('µ¥ÀÌÅÍ ¼ö : {}'.format(stack.size()))
-        print(('ºñ¾î ÀÖ½À´Ï´Ù.') if stack.is_empty() else ('ºñ¾îÀÖÁö ¾Ê½À´Ï´Ù.'))
-        print(('°¡µæ Ã¡½À´Ï´Ù.') if stack.is_full() else ('°¡µæ ÀÚÄ¡ ¾Ê¾Ò½À´Ï´Ù.'),end='\n\n')
+if __name__ =="__main__":
+    # stack ê°ì²´ ìƒì„±
+    init_stack_size = int(input('ìŠ¤íƒì˜ í¬ê¸°ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš” : '))
+    stack = Stack(init_stack_size)
+    print('\n')
 
-    else :
-        print('0~7»çÀÌÀÇ ¼ıÀÚ¸¸ ÀÔ·ÂÇØÁÖ¼¼¿ä.',end='\n\n')
+    while True:  # í”„ë¡œê·¸ë¨ ì‹œì‘
+
+        print('í˜„ì¬ ë°ì´í„° ìˆ˜ : {}/{}'.format(stack.size(), stack.capacity()))
+
+        menu = int(input('(1)push (2)pop (3)peek (4)dump (5)search (6)clear (7)info (0)exit : '))
+
+        if menu == 0:  # exit
+            break
+
+        if menu == 1:  # push
+            data = int(input('ë°ì´í„° : '))
+            print('\n')
+            stack.push(data)
+
+        elif menu == 2:  # pop
+            pop = stack.pop()
+            print('pop í•œ ë°ì´í„°ëŠ” {} ì…ë‹ˆë‹¤.{}'.format(pop, '\n'))
+
+        elif menu == 3:  # peek
+            peek = stack.peek()
+            print('peek í•œ ë°ì´í„°ëŠ” {} ì…ë‹ˆë‹¤.{}'.format(peek, '\n'))
+
+        elif menu == 4:  # dump
+            stack.dump()
+            print("", end='\n\n')
+
+        elif menu == 5:  # search
+            searchData = int(input('ë°ì´í„° : '))
+            print('')
+            result = stack.indexOf(searchData)
+
+            if result >= 0:
+                print('ê¼­ëŒ€ê¸°ë¶€í„° {} ë²ˆì§¸ì— ìˆìŠµë‹ˆë‹¤.{}'.format(stack.size() - result, '\n'))
+            else:
+                print('í•´ë‹¹ ë°ì´í„°ê°€ ì—†ìŠµë‹ˆë‹¤.', end='\n\n')
+
+        elif menu == 6:  # clear
+            print(stack.clear(), end='\n\n')
+
+
+        elif menu == 7:  # info
+            print('ìš©ëŸ‰ : {}'.format(stack.capacity()))
+            print('ë°ì´í„° ìˆ˜ : {}'.format(stack.size()))
+            print(('ë¹„ì–´ ìˆìŠµë‹ˆë‹¤.') if stack.is_empty() else ('ë¹„ì–´ìˆì§€ ì•ŠìŠµë‹ˆë‹¤.'))
+            print(('ê°€ë“ ì°¼ìŠµë‹ˆë‹¤.') if stack.is_full() else ('ê°€ë“ ìì¹˜ ì•Šì•˜ìŠµë‹ˆë‹¤.'), end='\n\n')
+
+        else:
+            print('0~7ì‚¬ì´ì˜ ìˆ«ìë§Œ ì…ë ¥í•´ì£¼ì„¸ìš”.', end='\n\n')
