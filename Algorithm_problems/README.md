@@ -56,3 +56,4 @@ x만큼 간격이 있는 n개의 숫자| [클릭](Python/level1/x만큼_간격�
 피보나치 수| [클릭](Python/level2/피보나치_수.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12945)
 탑| [클릭](Python/level2/탑.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/42588)
 가장 큰 수| [클릭](Python/level2/가장_큰_수.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/42746)
+가장 큰 정사각형 찾기| [클릭](Python/level2/가장_큰_정사각형_찾기.py) | [클릭](https://programmers.co.kr/learn/courses/30/lessons/12905)
