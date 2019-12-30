@@ -10,6 +10,12 @@ C | Visual Studio 2017 | Visual Studio 2017
 
 ## Programmers 
 
+### 개미수열
+문제 | 코드 
+:---: | :---:
+개미수열(list) | [클릭](Python/level1/K번째수.py)
+개미수열(정규표현식) | [클릭](Python/level1/K번째수.py)
+
 ### level 1
 
 문제 | 코드 | 문제 보기
