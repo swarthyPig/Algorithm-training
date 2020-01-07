@@ -20,11 +20,11 @@ def antArray(n):
                 count += 1
                 finalTemp = count # 숫자가 반복된 상태에서 끝났을 때 의 count
 
-            if mylist[j] != num: # 숫자가 다른 상태에서 끝났을 때 의 count
+            if mylist[j] != num: # 숫자가 다를 때
                 result.append(num)
                 result.append(count)
                 num = mylist[j] # 판단할 숫자를 변경
-                count = 1
+                count = 1 # 매칭이 되지 않기 때문에 count를 1로 초기화
                 finalTemp = count # 다른 상태에서 끝났을때의 count
 
             if j == len(mylist) - 1: # 끝날 때
