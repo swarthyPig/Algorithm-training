@@ -5,7 +5,7 @@
 Language | Version | IDE
 :---: | :---: | :---:
 Python | python 3.7.x | Pycharm 
-Java | 10.0.1 | Eclipse oxygen
+Java | 1.8 | Eclipse oxygen
 C | Visual Studio 2017 | Visual Studio 2017
 
 ## 개미수열
